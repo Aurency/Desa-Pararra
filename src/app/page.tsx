@@ -26,24 +26,25 @@ export default function Home() {
       {/* Welcome Message Section */}
       <section className="py-20 bg-brand-beige">
         <div className="container mx-auto px-6">
-          <h2 className="text-3xl font-bold text-center text-brand-green mb-12">
+          <h2 className="text-3xl font-bold text-[#0a4635] mb-12">
             Sambutan Hangat
           </h2>
           <div className="grid md:grid-cols-2 gap-12 items-center">
             {/* Kepala Desa */}
             <div className="bg-white p-8 rounded-lg shadow-md text-center">
               <Image
-                src="/foto berlima.png"
-                alt="Kepala Desa"
+                src="/berlima.png"
+                alt="Pemerintah Desa Pararra"
                 width={150}
                 height={150}
-                className="mx-auto rounded-full -mt-20 border-8 border-white"
+                className="mx-auto rounded-full -mt-20 border-8 border-white object-cover"
               />
-              <h3 className="text-2xl font-semibold text-brand-green mt-4">
-                Nama Kepala Desa
+              <h3 className="text-2xl font-semibold text-[#0a4635] mt-4">
+                Pemerintah Desa Pararra
               </h3>
-              <p className="text-gray-500 mb-4">Kepala Desa Pararra</p>
+              <p className="text-gray-500 mb-4">Kepala Desa & Jajaran</p>
               <p className="text-gray-700 italic">
+                {/* PERBAIKAN DI SINI: Mengganti " dengan " */}
                 "Dengan penuh rasa syukur, kami menyambut Anda di website resmi
                 Desa Pararra. Semoga platform ini menjadi jembatan informasi
                 yang bermanfaat bagi kita semua untuk bersama-sama membangun
@@ -53,17 +54,18 @@ export default function Home() {
             {/* KKN Mahasiswa */}
             <div className="bg-white p-8 rounded-lg shadow-md text-center">
               <Image
-                src="/berlima juga.png"
-                alt="Mahasiswa KKN"
+                src="/berlima-juga.png"
+                alt="Mahasiswa KKN Unhas"
                 width={150}
                 height={150}
-                className="mx-auto rounded-full -mt-20 border-8 border-white"
+                className="mx-auto rounded-full -mt-20 border-8 border-white object-cover"
               />
-              <h3 className="text-2xl font-semibold text-brand-green mt-4">
-                Perwakilan Mahasiswa KKN
+              <h3 className="text-2xl font-semibold text-[#0a4635] mt-4">
+                Mahasiswa KKN Unhas
               </h3>
-              <p className="text-gray-500 mb-4">KKN Unhas Gel. 114</p>
+              <p className="text-gray-500 mb-4">KKN Tematik Gel. 114</p>
               <p className="text-gray-700 italic">
+                {/* PERBAIKAN DI SINI: Mengganti " dengan " */}
                 "Merupakan suatu kehormatan bagi kami untuk dapat berkontribusi
                 dalam digitalisasi Desa Pararra. Website ini adalah salah satu
                 wujud dedikasi kami untuk memajukan desa dan memperkenalkan
@@ -75,7 +77,7 @@ export default function Home() {
       </section>
 
       {/* Call to Action Section (Versi Baru dengan Gambar) */}
-      <section className="py-20 bg-brand-beige">
+      <section className="py-20 bg-white">
         <div className="container mx-auto px-6 text-center">
           <h2 className="text-3xl font-bold text-[#0a4635] mb-12">
             Jelajahi Desa Kami

@@ -1,5 +1,7 @@
 // src/app/informasi/page.tsx
 
+// import Gmaps from "@/components/Gmaps";
+
 export default function InformasiPage() {
   return (
     <div className="bg-white">
@@ -22,11 +24,12 @@ export default function InformasiPage() {
         <div className="container mx-auto px-6 space-y-16">
           {/* Sejarah Desa */}
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold text-brand-green mb-6">
+            <h2 className="text-3xl font-bold text-[#0a4635] mb-6">
               Sejarah Desa Pararra
             </h2>
             <div className="prose lg:prose-xl max-w-none text-gray-700 space-y-4">
               <p>
+                {/* PERBAIKAN DI SINI: Mengganti ' dengan ' */}
                 (Dummy Content) Desa Pararra memiliki sejarah panjang yang
                 berakar dari kearifan lokal para leluhur. Nama 'Pararra' sendiri
                 diyakini berasal dari sebuah kata dalam bahasa lokal yang
@@ -48,12 +51,12 @@ export default function InformasiPage() {
 
           {/* Data Kependudukan */}
           <div className="max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold text-brand-green mb-6">
+            <h2 className="text-3xl font-bold text-[#0a4635] mb-6">
               Data Kependudukan
             </h2>
             <div className="overflow-x-auto bg-white rounded-lg shadow-md">
               <table className="min-w-full text-left text-sm">
-                <thead className="bg-brand-green text-white">
+                <thead className="bg-[#0a4635] text-white">
                   <tr>
                     <th className="p-4 font-semibold">Deskripsi</th>
                     <th className="p-4 font-semibold">Jumlah</th>
@@ -83,6 +86,14 @@ export default function InformasiPage() {
                 </tbody>
               </table>
             </div>
+          </div>
+
+          {/* Lokasi Kantor Desa */}
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold text-[#0a4635] mb-6">
+              Lokasi Kantor Desa
+            </h2>
+            {/* <Gmaps /> */}
           </div>
         </div>
       </section>
