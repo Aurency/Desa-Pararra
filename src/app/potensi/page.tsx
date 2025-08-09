@@ -2,83 +2,112 @@
 
 import Image from "next/image";
 
-const potentials = [
+// Data potensi desa diperbarui sesuai daftar yang Anda berikan
+const potentialsData = [
   {
-    name: "Durian Pararra",
+    title: "Durian Lokal & Montong",
     description:
-      "Dikenal dengan dagingnya yang tebal, legit, dan aroma yang khas. Menjadi komoditas unggulan dan primadona saat musim panen tiba.",
-    imageUrl: "https://placehold.co/600x400/22c55e/ffffff?text=Durian",
+      "Desa Pararra adalah surga bagi para pencinta durian, menawarkan varietas lokal yang khas serta durian Montong yang berdaging tebal dan manis.",
+    imageSrc:
+      "https://images.unsplash.com/photo-1626088313333-d731b54a2a44?w=600",
+    altText:
+      "Buah durian Montong yang sudah dibelah dengan isi yang menggugah selera",
   },
   {
-    name: "Kakao (Cokelat)",
+    title: "Kakao Kualitas Tinggi",
     description:
-      "Biji kakao dari Pararra memiliki kualitas fermentasi yang baik, diminati oleh industri pengolahan cokelat skala regional.",
-    imageUrl: "https://placehold.co/600x400/854d0e/ffffff?text=Kakao",
+      "Sebagai komoditas utama, biji kakao dari Pararra memiliki kualitas fermentasi yang sangat baik, diminati oleh industri pengolahan cokelat skala regional.",
+    imageSrc:
+      "https://images.unsplash.com/photo-1579898399478-d15f1711a27e?w=600",
+    altText: "Buah kakao yang matang di pohon perkebunan",
   },
   {
-    name: "Cengkeh",
+    title: "Wisata Alam Air Terjun",
     description:
-      "Perkebunan cengkeh yang terawat baik menghasilkan cengkeh dengan kualitas super yang menjadi sumber pendapatan penting bagi warga.",
-    imageUrl: "https://placehold.co/600x400/a3e635/ffffff?text=Cengkeh",
+      "Menyimpan pesona alam tersembunyi, desa ini memiliki beberapa lokasi air terjun yang masih alami, menawarkan kesegaran dan ketenangan bagi pengunjung.",
+    imageSrc:
+      "https://images.unsplash.com/photo-1501630834273-4b5604d2ee31?w=600",
+    altText: "Air terjun yang mengalir deras di tengah hutan tropis",
   },
   {
-    name: "Rambutan",
+    title: "Sumber Air Panas Alami",
     description:
-      "Rambutan Pararra terkenal manis dan 'ngelotok', mudah dikupas dari bijinya, menjadikannya favorit di pasaran.",
-    imageUrl: "https://placehold.co/600x400/dc2626/ffffff?text=Rambutan",
+      "Salah satu daya tarik unik Desa Pararra adalah sumber air panas alami yang dipercaya memiliki khasiat relaksasi dan terapi bagi kesehatan.",
+    imageSrc:
+      "https://images.unsplash.com/photo-1533038233328-3c3e68051754?w=600",
+    altText: "Uap yang mengepul dari sumber air panas alami",
   },
   {
-    name: "Wisata Alam",
+    title: "Agrowisata Langsat & Padi",
     description:
-      "Potensi wisata alam seperti air terjun tersembunyi, sungai jernih, dan perbukitan hijau yang menanti untuk dieksplorasi lebih lanjut.",
-    imageUrl: "https://placehold.co/600x400/0ea5e9/ffffff?text=Wisata+Alam",
+      "Selain durian, kebun warga juga menghasilkan buah langsat yang manis. Hamparan sawah yang hijau juga menjadi pemandangan agrowisata yang menyejukkan.",
+    imageSrc:
+      "https://images.unsplash.com/photo-1628574489513-b5523a125345?w=600",
+    altText: "Satu ikat buah langsat yang segar dan matang",
   },
   {
-    name: "Kerajinan Tangan",
+    title: "Spot Ikonik: Jembatan & Gazebo",
     description:
-      "Kerajinan dari bambu dan daun lontar yang dibuat oleh ibu-ibu desa menjadi produk unik yang memiliki nilai jual.",
-    imageUrl: "https://placehold.co/600x400/f97316/ffffff?text=Kerajinan",
+      "Infrastruktur wisata seperti Jembatan Pelangi dan gazebo-gazebo yang tersebar menjadi spot foto favorit dan tempat bersantai untuk menikmati keindahan desa.",
+    imageSrc:
+      "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?w=600",
+    altText: "Jembatan kayu yang indah melintasi danau yang tenang",
+  },
+  {
+    title: "Hasil Hutan: Rotan & Kayu",
+    description:
+      "Kekayaan hutan desa menghasilkan rotan dan kayu berkualitas yang dimanfaatkan oleh masyarakat untuk bahan bangunan dan produk kerajinan tangan.",
+    imageSrc:
+      "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600",
+    altText: "Hutan lebat yang menjadi sumber hasil kayu dan rotan",
   },
 ];
 
 export default function PotensiPage() {
   return (
-    <div>
+    <div className="bg-brand-beige">
       {/* Hero Section */}
       <section
         className="relative h-[40vh] flex items-center justify-center text-center text-white bg-cover bg-center"
+        // Menggunakan gambar air terjun sebagai hero banner
         style={{
           backgroundImage:
-            "url('https://placehold.co/1600x800/0a4635/f2e8d8?text=Potensi+Desa')",
+            "url('https://images.unsplash.com/photo-1501630834273-4b5604d2ee31?w=800')",
         }}
       >
         <div className="absolute inset-0 bg-black opacity-50"></div>
-        <h1 className="relative z-10 text-4xl md:text-5xl font-bold">
-          Potensi Unggulan Desa Pararra
-        </h1>
+        <div className="relative z-10 p-6">
+          <h1 className="text-4xl md:text-5xl font-bold">
+            Potensi Unggulan Desa Pararra
+          </h1>
+          <p className="mt-2 text-lg md:text-xl max-w-2xl mx-auto">
+            Menjelajahi Kekayaan Alam, Agrikultur, dan Wisata
+          </p>
+        </div>
       </section>
 
       {/* Potentials Grid */}
-      <section className="py-20 bg-brand-beige">
+      <section className="py-16 lg:py-20">
         <div className="container mx-auto px-6">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {potentials.map((item, index) => (
+            {potentialsData.map((item, index) => (
               <div
                 key={index}
-                className="bg-white rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300"
+                className="bg-white rounded-xl shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300 flex flex-col"
               >
-                <Image
-                  src={item.imageUrl}
-                  alt={item.name}
-                  width={600}
-                  height={400}
-                  className="w-full h-48 object-cover"
-                />
-                <div className="p-6">
-                  <h3 className="text-2xl font-bold text-brand-green mb-2">
-                    {item.name}
+                <div className="relative w-full h-56">
+                  <Image
+                    src={item.imageSrc}
+                    alt={item.altText}
+                    fill
+                    className="object-cover"
+                  />
+                </div>
+                <div className="p-6 flex flex-col flex-grow">
+                  <h3 className="text-2xl font-bold text-[#0a4635] mb-2">
+                    {item.title}
                   </h3>
-                  <p className="text-gray-700">{item.description}</p>
+                  <p className="text-gray-700 flex-grow">{item.description}</p>
                 </div>
               </div>
             ))}

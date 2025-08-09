@@ -26,14 +26,15 @@ export default function Home() {
       {/* Welcome Message Section */}
       <section className="py-20 bg-brand-beige">
         <div className="container mx-auto px-6">
-          <h2 className="text-3xl font-bold text-[#0a4635] mb-12">
+          {/* PERBAIKAN: Menambahkan text-center */}
+          <h2 className="text-3xl font-bold text-center text-[#0a4635] mb-12">
             Sambutan Hangat
           </h2>
           <div className="grid md:grid-cols-2 gap-12 items-center">
             {/* Kepala Desa */}
             <div className="bg-white p-8 rounded-lg shadow-md text-center">
               <Image
-                src="/berlima.png"
+                src="/foto berlima.png"
                 alt="Pemerintah Desa Pararra"
                 width={150}
                 height={150}
@@ -44,7 +45,6 @@ export default function Home() {
               </h3>
               <p className="text-gray-500 mb-4">Kepala Desa & Jajaran</p>
               <p className="text-gray-700 italic">
-                {/* PERBAIKAN DI SINI: Mengganti " dengan " */}
                 "Dengan penuh rasa syukur, kami menyambut Anda di website resmi
                 Desa Pararra. Semoga platform ini menjadi jembatan informasi
                 yang bermanfaat bagi kita semua untuk bersama-sama membangun
@@ -54,7 +54,7 @@ export default function Home() {
             {/* KKN Mahasiswa */}
             <div className="bg-white p-8 rounded-lg shadow-md text-center">
               <Image
-                src="/berlima-juga.png"
+                src="/berlima juga.png"
                 alt="Mahasiswa KKN Unhas"
                 width={150}
                 height={150}
@@ -65,11 +65,18 @@ export default function Home() {
               </h3>
               <p className="text-gray-500 mb-4">KKN Tematik Gel. 114</p>
               <p className="text-gray-700 italic">
-                {/* PERBAIKAN DI SINI: Mengganti " dengan " */}
-                "Merupakan suatu kehormatan bagi kami untuk dapat berkontribusi
-                dalam digitalisasi Desa Pararra. Website ini adalah salah satu
-                wujud dedikasi kami untuk memajukan desa dan memperkenalkan
-                potensinya ke khalayak luas."
+                "Assalamu’alaikum Warahmatullahi Wabarakatuh. Dengan penuh rasa
+                syukur dan semangat kebersamaan, kami, mahasiswa KKNT-114
+                Universitas Hasanuddin, menyambut Anda di website resmi Desa
+                Pararra. Semoga platform digital ini menjadi jembatan emas yang
+                menghubungkan semangat, informasi, dan harapan kita semua dalam
+                membangun desa yang kita cintai. Desa Pararra bukan sekadar
+                wilayah, melainkan ruang hidup yang kaya akan cerita, sejarah,
+                dan cita-cita. Bersama masyarakat, kami hadir bukan hanya untuk
+                mengabdi, tetapi untuk merajut langkah menuju desa yang mandiri,
+                berdaya, dan berbudaya. Mari manfaatkan laman ini sebagai wadah
+                inspirasi, kolaborasi, dan komunikasi demi masa depan Pararra
+                yang lebih cerah. Wassalamu’alaikum Warahmatullahi Wabarakatuh."
               </p>
             </div>
           </div>
@@ -89,7 +96,8 @@ export default function Home() {
               className="block bg-white rounded-xl shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300"
             >
               <Image
-                src="https://images.unsplash.com/photo-1622350624026-b84de4124933?w=500"
+                // PERBAIKAN: Link gambar Unsplash baru
+                src="/informasi.png"
                 alt="Sejarah Desa Pararra"
                 width={500}
                 height={300}
@@ -111,7 +119,8 @@ export default function Home() {
               className="block bg-white rounded-xl shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300"
             >
               <Image
-                src="https://images.unsplash.com/photo-1600056453538-348395232473?w=500"
+                // PERBAIKAN: Link gambar Unsplash baru
+                src="https://images.unsplash.com/photo-1523901980315-9659b8701968?w=500"
                 alt="Potensi Kakao dan Durian"
                 width={500}
                 height={300}
@@ -133,7 +142,8 @@ export default function Home() {
               className="block bg-white rounded-xl shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300"
             >
               <Image
-                src="https://images.unsplash.com/photo-1596941819744-2495a9b3a9da?w=500"
+                // PERBAIKAN: Link gambar Unsplash baru
+                src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?w=500"
                 alt="Galeri Keindahan Desa Pararra"
                 width={500}
                 height={300}
