@@ -8,8 +8,7 @@ const potentialsData = [
     title: "Durian Lokal & Montong",
     description:
       "Desa Pararra adalah surga bagi para pencinta durian, menawarkan varietas lokal yang khas serta durian Montong yang berdaging tebal dan manis.",
-    imageSrc:
-      "https://images.unsplash.com/photo-1626088313333-d731b54a2a44?w=600",
+    imageSrc: "/durian.png",
     altText:
       "Buah durian Montong yang sudah dibelah dengan isi yang menggugah selera",
   },
@@ -17,8 +16,7 @@ const potentialsData = [
     title: "Kakao Kualitas Tinggi",
     description:
       "Sebagai komoditas utama, biji kakao dari Pararra memiliki kualitas fermentasi yang sangat baik, diminati oleh industri pengolahan cokelat skala regional.",
-    imageSrc:
-      "https://images.unsplash.com/photo-1579898399478-d15f1711a27e?w=600",
+    imageSrc: "/kakao1.png",
     altText: "Buah kakao yang matang di pohon perkebunan",
   },
   {
@@ -26,23 +24,22 @@ const potentialsData = [
     description:
       "Menyimpan pesona alam tersembunyi, desa ini memiliki beberapa lokasi air terjun yang masih alami, menawarkan kesegaran dan ketenangan bagi pengunjung.",
     imageSrc:
-      "https://images.unsplash.com/photo-1501630834273-4b5604d2ee31?w=600",
-    altText: "Air terjun yang mengalir deras di tengah hutan tropis",
+      "/airterjun.png",
+    altText: "Air terjun yang mengalir deras",
   },
   {
     title: "Sumber Air Panas Alami",
     description:
       "Salah satu daya tarik unik Desa Pararra adalah sumber air panas alami yang dipercaya memiliki khasiat relaksasi dan terapi bagi kesehatan.",
     imageSrc:
-      "https://images.unsplash.com/photo-1533038233328-3c3e68051754?w=600",
+      "/airpanas.png",
     altText: "Uap yang mengepul dari sumber air panas alami",
   },
   {
     title: "Agrowisata Langsat & Padi",
     description:
       "Selain durian, kebun warga juga menghasilkan buah langsat yang manis. Hamparan sawah yang hijau juga menjadi pemandangan agrowisata yang menyejukkan.",
-    imageSrc:
-      "https://images.unsplash.com/photo-1628574489513-b5523a125345?w=600",
+    imageSrc: "/padi&langsat.png",
     altText: "Satu ikat buah langsat yang segar dan matang",
   },
   {
@@ -50,15 +47,14 @@ const potentialsData = [
     description:
       "Infrastruktur wisata seperti Jembatan Pelangi dan gazebo-gazebo yang tersebar menjadi spot foto favorit dan tempat bersantai untuk menikmati keindahan desa.",
     imageSrc:
-      "https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?w=600",
-    altText: "Jembatan kayu yang indah melintasi danau yang tenang",
+      "/jembatan.png",
+    altText: "Jembatan pelangi dan gazebo",
   },
   {
     title: "Hasil Hutan: Rotan & Kayu",
     description:
       "Kekayaan hutan desa menghasilkan rotan dan kayu berkualitas yang dimanfaatkan oleh masyarakat untuk bahan bangunan dan produk kerajinan tangan.",
-    imageSrc:
-      "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600",
+    imageSrc: "/kayurotan.png",
     altText: "Hutan lebat yang menjadi sumber hasil kayu dan rotan",
   },
 ];
@@ -71,8 +67,7 @@ export default function PotensiPage() {
         className="relative h-[40vh] flex items-center justify-center text-center text-white bg-cover bg-center"
         // Menggunakan gambar air terjun sebagai hero banner
         style={{
-          backgroundImage:
-            "url('https://images.unsplash.com/photo-1501630834273-4b5604d2ee31?w=800')",
+          backgroundImage: "url('/potensi1.png')",
         }}
       >
         <div className="absolute inset-0 bg-black opacity-50"></div>

@@ -34,7 +34,7 @@ export default function Home() {
             {/* Kepala Desa */}
             <div className="bg-white p-8 rounded-lg shadow-md text-center">
               <Image
-                src="/foto berlima.png"
+                src="/kepaladesa.png"
                 alt="Pemerintah Desa Pararra"
                 width={150}
                 height={150}
@@ -120,7 +120,7 @@ export default function Home() {
             >
               <Image
                 // PERBAIKAN: Link gambar Unsplash baru
-                src="https://images.unsplash.com/photo-1523901980315-9659b8701968?w=500"
+                src="/potensiberanda.png"
                 alt="Potensi Kakao dan Durian"
                 width={500}
                 height={300}
@@ -143,7 +143,7 @@ export default function Home() {
             >
               <Image
                 // PERBAIKAN: Link gambar Unsplash baru
-                src="https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?w=500"
+                src="/galeri.jpg"
                 alt="Galeri Keindahan Desa Pararra"
                 width={500}
                 height={300}
