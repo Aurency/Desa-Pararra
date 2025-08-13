@@ -64,7 +64,7 @@ export default function Home() {
                 Mahasiswa KKN Unhas
               </h3>
               <p className="text-gray-500 mb-4">KKN Tematik Gel. 114</p>
-              <p className="text-gray-700 italic">
+              <p className="text-gray-700 italic text-justify">
                 "Assalamu’alaikum Warahmatullahi Wabarakatuh. Dengan penuh rasa
                 syukur dan semangat kebersamaan, kami, mahasiswa KKNT-114
                 Universitas Hasanuddin, menyambut Anda di website resmi Desa

@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 // Kita akan menggunakan ikon populer dari react-icons
-import { FaInstagram, FaFacebook, FaWhatsapp } from "react-icons/fa";
+// import { FaInstagram, FaFacebook, FaWhatsapp } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -16,7 +16,7 @@ const Footer = () => {
               Kecamatan Sabbang, Kabupaten Luwu Utara, Sulawesi Selatan.
             </p>
             {/* Ikon Media Sosial */}
-            <div className="flex space-x-4 mt-6">
+            {/* <div className="flex space-x-4 mt-6">
               <a
                 href="#"
                 className="text-gray-300 hover:text-brand-yellow transition-transform duration-300 hover:scale-125"
@@ -35,7 +35,7 @@ const Footer = () => {
               >
                 <FaWhatsapp size={24} />
               </a>
-            </div>
+            </div> */}
           </div>
 
           {/* Kolom Navigasi */}
@@ -84,14 +84,14 @@ const Footer = () => {
               <li>
                 <strong>Email:</strong>{" "}
                 <a
-                  href="mailto:kontak@pararra.desa.id"
+                  // href="mailto:kontak@pararra.desa.id"
                   className="hover:text-brand-yellow"
                 >
-                  kontak@pararra.desa.id
+                  -
                 </a>
               </li>
               <li>
-                <strong>Telepon:</strong> +62 812-3456-7890
+                <strong>Telepon:</strong> 0853457445
               </li>
               <li className="max-w-xs mx-auto md:mx-0">
                 <strong>Alamat:</strong> Kantor Desa Pararra, Sabbang, Luwu

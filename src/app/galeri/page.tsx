@@ -5,35 +5,55 @@ import Image from "next/image";
 // Menggunakan gambar-gambar baru yang lebih realistis dari Unsplash
 const galleryImages = [
   {
-    src: "https://images.unsplash.com/photo-1534549419139-4d2a4a23f85b?w=600",
+    src: "/1.jpg",
     alt: "Pemandangan sawah terasering yang subur dan hijau di Pararra",
   },
+  // {
+  //   src: "/2.jpg",
+  //   alt: "Anak-anak desa bermain dengan ceria di sungai",
+  // },
   {
-    src: "https://images.unsplash.com/photo-1546512130-589a78571060?w=600",
-    alt: "Anak-anak desa bermain dengan ceria di sungai",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1579898399478-d15f1711a27e?w=600",
+    src: "/3.jpg",
     alt: "Buah kakao yang matang di perkebunan Desa Pararra",
   },
   {
-    src: "https://images.unsplash.com/photo-1507646223320-625f0a4f5f14?w=600",
+    src: "/4.jpg",
     alt: "Suasana senja di atas perbukitan desa",
   },
   {
-    src: "https://images.unsplash.com/photo-1590599668822-f0b8c8d8b2e1?w=600",
+    src: "/5.jpg",
     alt: "Detail buah kakao yang baru dipetik dari pohon",
   },
   {
-    src: "https://images.unsplash.com/photo-1626088313333-d731b54a2a44?w=600",
+    src: "/6.jpg",
     alt: "Durian montong khas Pararra yang siap dinikmati",
   },
   {
-    src: "https://images.unsplash.com/photo-1473992436533-3599426f4779?w=600",
+    src: "/7.jpg",
     alt: "Warga desa sedang bekerja sama di ladang",
   },
   {
-    src: "https://images.unsplash.com/photo-1501630834273-4b5604d2ee31?w=600",
+    src: "/8.jpg",
+    alt: "Salah satu air terjun tersembunyi di Desa Pararra",
+  },
+  {
+    src: "/9.jpg",
+    alt: "Salah satu air terjun tersembunyi di Desa Pararra",
+  },
+  {
+    src: "/10.jpg",
+    alt: "Salah satu air terjun tersembunyi di Desa Pararra",
+  },
+  {
+    src: "/11.jpg",
+    alt: "Salah satu air terjun tersembunyi di Desa Pararra",
+  },
+  {
+    src: "/12.jpg",
+    alt: "Salah satu air terjun tersembunyi di Desa Pararra",
+  },
+  {
+    src: "/13.jpg",
     alt: "Salah satu air terjun tersembunyi di Desa Pararra",
   },
 ];
@@ -46,7 +66,7 @@ export default function GalleryPage() {
         className="relative h-[40vh] flex items-center justify-center text-center text-white bg-cover bg-center"
         style={{
           backgroundImage:
-            "url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?w=800')",
+            "url('/galeri1.jpg')",
         }}
       >
         <div className="absolute inset-0 bg-black opacity-50"></div>
@@ -55,7 +75,7 @@ export default function GalleryPage() {
         </h1>
       </section>
 
-      {/* ============== BAGIAN VIDEO DOKUMENTER (BARU) ============== */}
+      
       <section className="py-16 lg:py-20 bg-white">
         <div className="container mx-auto px-6 text-center">
           <h2 className="text-3xl font-bold text-[#0a4635] mb-8">
@@ -74,7 +94,7 @@ export default function GalleryPage() {
         </div>
       </section>
 
-      {/* ============== BAGIAN GALERI FOTO (DIPERBAIKI) ============== */}
+      {}
       <section className="py-16 lg:py-20">
         <div className="container mx-auto px-6">
           <h2 className="text-3xl font-bold text-center text-[#0a4635] mb-12">

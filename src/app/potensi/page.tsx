@@ -16,7 +16,7 @@ const potentialsData = [
     title: "Kakao Kualitas Tinggi",
     description:
       "Sebagai komoditas utama, biji kakao dari Pararra memiliki kualitas fermentasi yang sangat baik, diminati oleh industri pengolahan cokelat skala regional.",
-    imageSrc: "/kakao1.png",
+    imageSrc: "/kakao.jpg",
     altText: "Buah kakao yang matang di pohon perkebunan",
   },
   {
@@ -24,7 +24,7 @@ const potentialsData = [
     description:
       "Menyimpan pesona alam tersembunyi, desa ini memiliki beberapa lokasi air terjun yang masih alami, menawarkan kesegaran dan ketenangan bagi pengunjung.",
     imageSrc:
-      "/airterjun.png",
+      "/air terjun.jpg",
     altText: "Air terjun yang mengalir deras",
   },
   {
@@ -32,7 +32,7 @@ const potentialsData = [
     description:
       "Salah satu daya tarik unik Desa Pararra adalah sumber air panas alami yang dipercaya memiliki khasiat relaksasi dan terapi bagi kesehatan.",
     imageSrc:
-      "/airpanas.png",
+      "/air panas.png",
     altText: "Uap yang mengepul dari sumber air panas alami",
   },
   {
@@ -47,7 +47,7 @@ const potentialsData = [
     description:
       "Infrastruktur wisata seperti Jembatan Pelangi dan gazebo-gazebo yang tersebar menjadi spot foto favorit dan tempat bersantai untuk menikmati keindahan desa.",
     imageSrc:
-      "/jembatan.png",
+      "/gazebo.png",
     altText: "Jembatan pelangi dan gazebo",
   },
   {

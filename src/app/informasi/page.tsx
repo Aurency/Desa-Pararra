@@ -11,7 +11,7 @@ const kepalaDesaData = [
   { no: 5, nama: "Idrus To Pacawang", periode: "1994 - 2000" },
   { no: 6, nama: "Basri Abdillah", periode: "2001 - 2014" },
   { no: 7, nama: "Nirwan L", periode: "2014 - 2021" },
-  { no: 8, nama: "Nirwan L", periode: "2021 - 2027" },
+  { no: 8, nama: "Mangsur", periode: "2021 - Sekarang" },
 ];
 
 // Data Pendidikan Terakhir dari Dokumen (Tabel 4, Tahun 2021)
